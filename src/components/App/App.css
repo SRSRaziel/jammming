@@ -1,0 +1,16 @@
+.title{
+    text-align: center;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #464646;
+    margin: 0 10px;
+}
