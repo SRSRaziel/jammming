@@ -1,16 +1,21 @@
 .title{
     text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+    font-weight: 500;
 }
 
 .content{
     display: flex;
     justify-content: center;
     text-align: center;
+    gap: 20px;
 }
 
 .box {
-    width: 100px;
-    height: 100px;
+    width: 600px;
+    height: 600px;
     background-color: #464646;
-    margin: 0 10px;
+    border-radius: 8px;
+    padding: 20px;
 }
