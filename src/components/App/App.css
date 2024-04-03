@@ -15,6 +15,8 @@
 .box {
     width: 600px;
     height: 600px;
+    overflow: auto;
+    scrollbar-width: none;
     background-color: #464646;
     border-radius: 8px;
     padding: 20px;
