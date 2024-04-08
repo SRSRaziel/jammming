@@ -39,16 +39,16 @@ export default function App(){
 
     return(
         <>
-        <div class="title">Jammming</div>
-            <div class="content">
+        <div className="title">Jammming</div>
+            <div className="content">
                 <section>
-                    <div class="box">
+                    <div className="box">
                         <SearchBar onSearch={search}/>
                         <SearchResults searchResults={searchResults} onAdd={addTrack}/>
                     </div>
                 </section>
                 <section>
-                    <div class="box">
+                    <div className="box">
                         <Playlist
                         playlistName={playlistName}
                         playlistTracks={playlistTracks}

@@ -1,12 +1,13 @@
 .title{
     text-align: center;
-    margin-bottom: 20px;
+    padding: 20px;
     font-size: 2em;
     font-weight: 500;
 }
 
 .content{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     text-align: center;
     gap: 20px;
@@ -15,9 +16,21 @@
 .box {
     width: 600px;
     height: 600px;
-    overflow: auto;
+    overflow-y: auto;
     scrollbar-width: none;
     background-color: #464646;
     border-radius: 8px;
     padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(0, 0, 0, 0.15) 0px 0px 0px 1px;
+}
+
+.box-top{
+    overflow: initial
+}
+
+@media screen and (max-width: 600px) {
+	.box {
+        width: 300px;
+        height: 300px;
+    }
 }

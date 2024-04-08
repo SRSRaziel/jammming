@@ -8,7 +8,7 @@
 .searchbar input{
     width: 100%;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 50px;
     border: 1px solid white;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
@@ -20,7 +20,7 @@
 .searchbutton{
     cursor: pointer;
     height: 37px;
-    border-radius: 5px;
+    border-radius: 50px;
     border: none;
     background-color: #307351;
     color: white;

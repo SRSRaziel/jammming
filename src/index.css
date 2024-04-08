@@ -2,10 +2,8 @@
 body, html {
   height: 100%;
   margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   font-family: "Lora", serif;
-  background-color: #071013;
+  font-size: 1.2em;
   color: white;
+  background-color: #152915;
 }
